@@ -1,9 +1,22 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 7,
-  "emitidoEm": "2026-10-30T19:28:28Z",
+  "sequencia": 8,
+  "emitidoEm": "2026-10-30T19:42:02Z",
   "versoes": [
+    {
+      "versao": "0.9.6",
+      "data": "2026-10-30",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "6931c24af605aa40379990f88ba42b3daf39eabbec4f6034b8be29b67c9a2e1c",
+      "tamanho": 36763537,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": ""
+    },
     {
       "versao": "0.9.5",
       "data": "2026-10-30",
