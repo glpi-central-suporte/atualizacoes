@@ -1,0 +1,72 @@
+# ═══════════════════════════════════════════════════════════════════════════
+#  renovar.yml — robô que renova a VALIDADE do manifesto (D-041, D-042)
+#  Central de Suporte · repositório público de versões · v0.8.6 · 29/10/2026
+# ═══════════════════════════════════════════════════════════════════════════
+#  QUANDO RODA
+#    - dia 1 de cada mês, 06:17 UTC (o commit mensal também mantém o
+#      repositório "ativo": o GitHub desliga agendamentos após 60 dias parado)
+#    - logo depois de cada publicação (mudança em manifesto.json/.sig)
+#    - à mão (Actions → renovar-validade → Run workflow), com opção "forcar"
+#  O QUE FAZ
+#    .github/robo/renovar.py confere a assinatura do manifesto com as chaves
+#    PÚBLICAS de versões (abaixo) e, se estiver tudo certo, assina um
+#    renovacao.json novo (90 dias) com o segredo RENOVACAO_CHAVE.
+#  SEGURANÇA
+#    - Nenhuma "action" de terceiros: só git e python3 do próprio Ubuntu.
+#    - Permissão mínima: só escrever conteúdo deste repositório.
+#    - RENOVACAO_CHAVE só renova validade; não autoriza instalador.
+#    - CHAVES_VERSOES são PÚBLICAS (as mesmas do app). Preenchidas pelo
+#      "publicador chaves-gerar"; não editar à mão.
+# ═══════════════════════════════════════════════════════════════════════════
+name: renovar-validade
+
+on:
+  schedule:
+    - cron: "17 6 1 * *"
+  push:
+    branches: [main]
+    paths: [manifesto.json, manifesto.sig]
+  workflow_dispatch:
+    inputs:
+      forcar:
+        description: "Renovar mesmo se ainda estiver válida? (sim/nao)"
+        default: "nao"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: renovar
+  cancel-in-progress: false
+
+jobs:
+  renovar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      CHAVES_VERSOES: "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAED2W92FVFxhpHSQq+TXTLS6WNVtZ7ovkM1a7HdxM5s1x6udlz4ZYfEIriJxbDpSR3XvGsp6aF1yS4py1e6hufQA==,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdElE+0iAgZ2zzdWwVjeyZqwNcV7gnW1c+e59R3IwTsSn+9wj96ltFITo5k/W97rDRSOnhQ4eAk+aRMl529EzJg=="
+    steps:
+      - name: Baixar o repositório
+        env:
+          TOKEN: ${{ github.token }}
+        run: git clone --depth 1 "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" repo
+
+      - name: Biblioteca de criptografia do Ubuntu
+        run: python3 -c "import cryptography" 2>/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq python3-cryptography)
+
+      - name: Renovar a validade
+        working-directory: repo
+        env:
+          RENOVACAO_CHAVE: ${{ secrets.RENOVACAO_CHAVE }}
+          FORCAR: ${{ github.event.inputs.forcar }}
+        run: python3 .github/robo/renovar.py
+
+      - name: Gravar se mudou
+        working-directory: repo
+        run: |
+          if [ -z "$(git status --porcelain -- renovacao.json renovacao.sig)" ]; then echo "Nada a gravar."; exit 0; fi
+          git config user.name "renovacao-automatica"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add renovacao.json renovacao.sig
+          git commit -m "renovacao: validade renovada"
+          git push
