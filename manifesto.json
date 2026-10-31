@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 15,
-  "emitidoEm": "2026-10-31T18:56:54Z",
+  "sequencia": 16,
+  "emitidoEm": "2026-10-31T19:18:03Z",
   "versoes": [
+    {
+      "versao": "0.9.14",
+      "data": "2026-10-31",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "593b3936ab27734c8c4e455bb9ea5bda53f98acd246a87b11a930fb76b975fba",
+      "tamanho": 36779304,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "melhoria"
+      ],
+      "notas": "A conversa do chamado agora usa as cores da sua empresa, definidas no servidor. No tema escuro, as mesmas cores em tom mais escuro."
+    },
     {
       "versao": "0.9.13",
       "data": "2026-10-31",
