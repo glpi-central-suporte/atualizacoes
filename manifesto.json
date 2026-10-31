@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 14,
-  "emitidoEm": "2026-10-31T18:34:33Z",
+  "sequencia": 15,
+  "emitidoEm": "2026-10-31T18:56:54Z",
   "versoes": [
+    {
+      "versao": "0.9.13",
+      "data": "2026-10-31",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "3c1060c4ba2b967d95b163fa7c9896671ab17e93f42c87cea53946ff99badf54",
+      "tamanho": 36775140,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "melhoria"
+      ],
+      "notas": "Conversa do chamado com visual novo: mensagens em balões de vidro, verde para quem abriu, azul para o suporte e a solução destacada com um sinal de certo."
+    },
     {
       "versao": "0.9.12",
       "data": "2026-10-31",
