@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 16,
-  "emitidoEm": "2026-10-31T19:18:03Z",
+  "sequencia": 17,
+  "emitidoEm": "2026-10-31T19:53:06Z",
   "versoes": [
+    {
+      "versao": "0.9.15",
+      "data": "2026-10-31",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "4259748a160a79a84f648aaeae0cf4453170e5afe685f8cb5bfa2517c9db4df9",
+      "tamanho": 36787221,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "melhoria"
+      ],
+      "notas": "Agora você responde o chamado sem sair da Central: escreva, cole um print com Ctrl+V ou anexe arquivos. Ctrl+Enter envia."
+    },
     {
       "versao": "0.9.14",
       "data": "2026-10-31",
