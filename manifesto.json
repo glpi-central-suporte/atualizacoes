@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 17,
-  "emitidoEm": "2026-10-31T19:53:06Z",
+  "sequencia": 18,
+  "emitidoEm": "2026-10-31T20:40:50Z",
   "versoes": [
+    {
+      "versao": "0.9.16",
+      "data": "2026-10-31",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "2650c08ab4cc89a013a4e22892afbe772c88e8e45dd85eadc165e3a35d701863",
+      "tamanho": 36791182,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "melhoria"
+      ],
+      "notas": "A conversa e a lista de chamados se atualizam sozinhas. Imagens anexadas aparecem em miniatura: clique para ampliar."
+    },
     {
       "versao": "0.9.15",
       "data": "2026-10-31",
