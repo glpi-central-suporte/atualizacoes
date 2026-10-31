@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 11,
-  "emitidoEm": "2026-10-31T12:51:01Z",
+  "sequencia": 12,
+  "emitidoEm": "2026-10-31T14:59:43Z",
   "versoes": [
+    {
+      "versao": "0.9.10",
+      "data": "2026-10-31",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "2b74f698727c9b73a416ffb3aaad7f8d5664bc8f75e95095d1b4aefe438d996a",
+      "tamanho": 36762697,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "correcao"
+      ],
+      "notas": "Versão de teste: confirma que números de dois dígitos (0.9.10) são reconhecidos como mais novos que a 0.9.9. Nenhuma mudança na tela."
+    },
     {
       "versao": "0.9.9",
       "data": "2026-10-31",
