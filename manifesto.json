@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 18,
-  "emitidoEm": "2026-10-31T20:40:50Z",
+  "sequencia": 19,
+  "emitidoEm": "2026-10-31T20:47:47Z",
   "versoes": [
+    {
+      "versao": "0.9.17",
+      "data": "2026-10-31",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "a2cd2fadb0842d2844e6025fde383dde324266b367718625eb9119187b654ae1",
+      "tamanho": 36804962,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "correcao"
+      ],
+      "notas": "A imagem ampliada agora abre no tamanho certo, centrada na tela, com o botão de fechar sempre visível."
+    },
     {
       "versao": "0.9.16",
       "data": "2026-10-31",
