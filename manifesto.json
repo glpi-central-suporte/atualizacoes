@@ -1,9 +1,27 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 10,
-  "emitidoEm": "2026-10-31T11:51:14Z",
+  "sequencia": 11,
+  "emitidoEm": "2026-10-31T12:51:01Z",
   "versoes": [
+    {
+      "versao": "0.9.9",
+      "data": "2026-10-31",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "a059bd42f3a347d15460a159e1ec9999c65126d41ae9124f53c230e4a04ba710",
+      "tamanho": 36768822,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "correcao",
+        "melhoria"
+      ],
+      "notas": "Aviso de atualização reorganizado, com explicação de cada versão. Chamados apagados no GLPI somem sozinhos das Novidades. A Central guarda as 6 últimas versões para restaurar na hora."
+    },
     {
       "versao": "0.9.8",
       "data": "2026-10-31",
