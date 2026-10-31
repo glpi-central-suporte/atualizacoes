@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 13,
-  "emitidoEm": "2026-10-31T18:11:34Z",
+  "sequencia": 14,
+  "emitidoEm": "2026-10-31T18:34:33Z",
   "versoes": [
+    {
+      "versao": "0.9.12",
+      "data": "2026-10-31",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "0743d0fa2f521bb4dfe4e87ea71dd75215fce79c9a3dadfca68127da8a63f004",
+      "tamanho": 36787984,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "melhoria"
+      ],
+      "notas": "Clique num chamado da lista para ver a conversa completa dentro da Central: descrição, respostas e solução. O botão Abrir no navegador continua disponível."
+    },
     {
       "versao": "0.9.11",
       "data": "2026-10-31",
