@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 12,
-  "emitidoEm": "2026-10-31T14:59:43Z",
+  "sequencia": 13,
+  "emitidoEm": "2026-10-31T18:11:34Z",
   "versoes": [
+    {
+      "versao": "0.9.11",
+      "data": "2026-10-31",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "78d351f496b441285c6212e4368ef803a5451a06a8a20e9186f17f13202a9b5c",
+      "tamanho": 36762033,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "melhoria"
+      ],
+      "notas": "A lista de chamados agora mostra o nome do técnico responsável à direita de cada cartão. Sem técnico atribuído, aparece Sem técnico."
+    },
     {
       "versao": "0.9.10",
       "data": "2026-10-31",
