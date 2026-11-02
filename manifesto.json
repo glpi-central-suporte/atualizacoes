@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 23,
-  "emitidoEm": "2026-11-02T14:09:14Z",
+  "sequencia": 24,
+  "emitidoEm": "2026-11-02T15:43:14Z",
   "versoes": [
+    {
+      "versao": "0.9.22",
+      "data": "2026-11-02",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "ec8e4c6a018a8d44a8f01ae59a3930079b638c3d9295c9692e218f5428980e87",
+      "tamanho": 36813606,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "melhoria"
+      ],
+      "notas": "O print da tela só vai no chamado se você marcar a caixa ou clicar em Tirar print."
+    },
     {
       "versao": "0.9.21",
       "data": "2026-11-02",
