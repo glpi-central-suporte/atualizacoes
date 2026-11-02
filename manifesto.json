@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 22,
-  "emitidoEm": "2026-11-02T13:57:14Z",
+  "sequencia": 23,
+  "emitidoEm": "2026-11-02T14:09:14Z",
   "versoes": [
+    {
+      "versao": "0.9.21",
+      "data": "2026-11-02",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "6edf2aa34bf28b58fa4d27d504b9d6bd111959b641caae1391270cf61004956c",
+      "tamanho": 36809139,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "correcao"
+      ],
+      "notas": "Corrige a volta para a tela de login ao abrir um chamado, para quem é cliente."
+    },
     {
       "versao": "0.9.20",
       "data": "2026-11-02",
