@@ -1,8 +1,8 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequenciaManifesto": 21,
-  "sha256Manifesto": "a1ad685d749ad3a68fac40de77c6c6d60c371b71c6a5f2497c81272155adf63e",
-  "emitidoEm": "2026-11-02T13:05:28Z",
-  "validoAte": "2027-01-31T13:05:28Z"
+  "sequenciaManifesto": 22,
+  "sha256Manifesto": "5cb9d9d6cd556e13c13322420619d67d5aae503b4096126acc7bc320229b4a4d",
+  "emitidoEm": "2026-11-02T13:57:24Z",
+  "validoAte": "2027-01-31T13:57:24Z"
 }
