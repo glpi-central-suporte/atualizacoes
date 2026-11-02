@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 24,
-  "emitidoEm": "2026-11-02T15:43:14Z",
+  "sequencia": 25,
+  "emitidoEm": "2026-11-02T17:01:17Z",
   "versoes": [
+    {
+      "versao": "0.9.24",
+      "data": "2026-11-02",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "be5379d1f0a89b00897cb5de67aaaf41f99b33ef4eb314b538608aa0e9c4b79b",
+      "tamanho": 36814007,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "melhoria"
+      ],
+      "notas": "Tela Abrir chamado redesenhada: mais clara, com a aba PRINT DE TELA que abre a gaveta do print e dos arquivos."
+    },
     {
       "versao": "0.9.22",
       "data": "2026-11-02",
