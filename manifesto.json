@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 20,
-  "emitidoEm": "2026-11-02T12:21:02Z",
+  "sequencia": 21,
+  "emitidoEm": "2026-11-02T13:05:18Z",
   "versoes": [
+    {
+      "versao": "0.9.19",
+      "data": "2026-11-02",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "41093f7940faa4cdd2dc4d99eb0e2ec046ae0d139b1fed19871f5893f2d39043",
+      "tamanho": 36806033,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "melhoria"
+      ],
+      "notas": "A novidade de um chamado agora abre só a janela dele. O cliente passa a receber os avisos a cada minuto."
+    },
     {
       "versao": "0.9.18",
       "data": "2026-11-02",
