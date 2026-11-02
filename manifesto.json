@@ -1,9 +1,27 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 19,
-  "emitidoEm": "2026-10-31T20:47:47Z",
+  "sequencia": 20,
+  "emitidoEm": "2026-11-02T12:21:02Z",
   "versoes": [
+    {
+      "versao": "0.9.18",
+      "data": "2026-11-02",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "68f6a3bfd855170be570e7e91605e259ec2e8e10ba5ee501a2832420c8455df0",
+      "tamanho": 36813304,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "correcao",
+        "melhoria"
+      ],
+      "notas": "A novidade agora abre o chamado dentro do app. O cliente só recebe aviso do que pode ver. Aviso claro quando o servidor bloqueia por senha errada."
+    },
     {
       "versao": "0.9.17",
       "data": "2026-10-31",
