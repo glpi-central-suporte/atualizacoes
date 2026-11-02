@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 21,
-  "emitidoEm": "2026-11-02T13:05:18Z",
+  "sequencia": 22,
+  "emitidoEm": "2026-11-02T13:57:14Z",
   "versoes": [
+    {
+      "versao": "0.9.20",
+      "data": "2026-11-02",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "c5a20a5d2d360f98592f923901d8c48dd99e0072c269bb997dc8c22c14afecd9",
+      "tamanho": 36810899,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "melhoria"
+      ],
+      "notas": "O cliente agora vê as categorias ao abrir um chamado, lidas do servidor da empresa dele."
+    },
     {
       "versao": "0.9.19",
       "data": "2026-11-02",
