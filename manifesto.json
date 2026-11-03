@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 26,
-  "emitidoEm": "2026-11-03T10:36:28Z",
+  "sequencia": 27,
+  "emitidoEm": "2026-11-03T11:11:00Z",
   "versoes": [
+    {
+      "versao": "0.9.26",
+      "data": "2026-11-03",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "081f46531f1ace0140c92357aacf95a654d447ccd83149e82ec9dd0bbcf8d5be",
+      "tamanho": 36759029,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "seguranca"
+      ],
+      "notas": "Autoteste conferido no binário do pacote antes de gerar o instalador; símbolos antigos removidos na atualização."
+    },
     {
       "versao": "0.9.25",
       "data": "2026-11-03",
