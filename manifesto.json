@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 25,
-  "emitidoEm": "2026-11-02T17:01:17Z",
+  "sequencia": 26,
+  "emitidoEm": "2026-11-03T10:36:28Z",
   "versoes": [
+    {
+      "versao": "0.9.25",
+      "data": "2026-11-03",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "581a5dfdffddde922be097d9b537bfba4328cf9cc7826b1cbb67f2f81450d082",
+      "tamanho": 36757540,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "seguranca"
+      ],
+      "notas": "Símbolos de depuração (.pdb) não vão mais no instalador."
+    },
     {
       "versao": "0.9.24",
       "data": "2026-11-02",
