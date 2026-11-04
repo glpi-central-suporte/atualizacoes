@@ -1,9 +1,27 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 27,
-  "emitidoEm": "2026-11-03T11:11:00Z",
+  "sequencia": 28,
+  "emitidoEm": "2026-11-04T17:21:41Z",
   "versoes": [
+    {
+      "versao": "0.9.27",
+      "data": "2026-11-04",
+      "canais": [
+        "geral",
+        "piloto"
+      ],
+      "sha256": "bf562a8309cdd0686a7384ad7160610b7b0f90b52978ddcf099edc67c49c4bc6",
+      "tamanho": 37006969,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "seguranca"
+      ],
+      "notas": "Aplicativo com proteção reforçada; atualização recomendada para todos."
+    },
     {
       "versao": "0.9.26",
       "data": "2026-11-03",
