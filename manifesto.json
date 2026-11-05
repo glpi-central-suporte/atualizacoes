@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 29,
-  "emitidoEm": "2026-11-05T12:12:36Z",
+  "sequencia": 30,
+  "emitidoEm": "2026-11-05T14:06:45Z",
   "versoes": [
+    {
+      "versao": "0.9.30",
+      "data": "2026-11-05",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "499d0502e2e9c85e34c83cdca0906c25d803f61d54e08cc1b9c3dc00e36a3334",
+      "tamanho": 37007529,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "melhoria"
+      ],
+      "notas": "Chamados: opcao Fechados; observador ve o chamado e recebe os avisos"
+    },
     {
       "versao": "0.9.29",
       "data": "2026-11-05",
