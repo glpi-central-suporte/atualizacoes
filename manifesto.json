@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 31,
-  "emitidoEm": "2026-11-05T14:32:34Z",
+  "sequencia": 32,
+  "emitidoEm": "2026-11-05T14:58:26Z",
   "versoes": [
+    {
+      "versao": "0.9.32",
+      "data": "2026-11-05",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "25ff4e766035d4b639297d41afc3abdbef1320743aa7822554edcd12bd2d1b83",
+      "tamanho": 37016952,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "correcao"
+      ],
+      "notas": "Corrige a lista de chamados e os avisos para o perfil cliente"
+    },
     {
       "versao": "0.9.31",
       "data": "2026-11-05",
