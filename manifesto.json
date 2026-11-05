@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 35,
-  "emitidoEm": "2026-11-05T20:16:11Z",
+  "sequencia": 36,
+  "emitidoEm": "2026-11-05T21:28:04Z",
   "versoes": [
+    {
+      "versao": "0.9.34",
+      "data": "2026-11-05",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "1ace7a8e6186c93d60f52743f48041f9f83049e9c7435ac9cfbb9bdc30e326fc",
+      "tamanho": 37010894,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "melhoria"
+      ],
+      "notas": "Botao Assumir chamado para tecnicos; chamado sem tecnico vira seu com um clique"
+    },
     {
       "versao": "0.9.33",
       "data": "2026-11-05",
