@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 30,
-  "emitidoEm": "2026-11-05T14:06:45Z",
+  "sequencia": 31,
+  "emitidoEm": "2026-11-05T14:32:34Z",
   "versoes": [
+    {
+      "versao": "0.9.31",
+      "data": "2026-11-05",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "bb464b4f7f7795222b22cc4e4df68b4bfe5758d25dc190c50b26c94dc53fb3df",
+      "tamanho": 37021746,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "melhoria"
+      ],
+      "notas": "Chamados: botao Mostrar mais 50 no fim da lista"
+    },
     {
       "versao": "0.9.30",
       "data": "2026-11-05",
