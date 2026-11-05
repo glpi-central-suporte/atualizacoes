@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 33,
-  "emitidoEm": "2026-11-05T15:20:19Z",
+  "sequencia": 34,
+  "emitidoEm": "2026-11-05T19:51:55Z",
   "versoes": [
+    {
+      "versao": "0.9.33",
+      "data": "2026-11-05",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "41e8267067bcc2cb4827eb2df5cca6e231f57c772f51188e680674a00fede2db",
+      "tamanho": 37018160,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "melhoria"
+      ],
+      "notas": "Quem atende ve os observadores do chamado; janelas se ajustam ao trocar a escala"
+    },
     {
       "versao": "0.9.32",
       "data": "2026-11-05",
