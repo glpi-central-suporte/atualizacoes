@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 28,
-  "emitidoEm": "2026-11-04T17:21:41Z",
+  "sequencia": 29,
+  "emitidoEm": "2026-11-05T12:12:36Z",
   "versoes": [
+    {
+      "versao": "0.9.29",
+      "data": "2026-11-05",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "83e1ab149837f8253abf921753ef32f057e667512e89d78b1c6df607eba668d4",
+      "tamanho": 37007304,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "correcao"
+      ],
+      "notas": "Janelas Abrir chamado, Chamados e Chamado cabem em telas pequenas e escala alta"
+    },
     {
       "versao": "0.9.27",
       "data": "2026-11-04",
