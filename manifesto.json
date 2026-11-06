@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 38,
-  "emitidoEm": "2026-11-06T12:30:16Z",
+  "sequencia": 39,
+  "emitidoEm": "2026-11-06T12:54:25Z",
   "versoes": [
+    {
+      "versao": "0.9.36",
+      "data": "2026-11-06",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "ac793edc79d4f619b3bb95ae152456694d3299e27bbd61a5853762be464ae629",
+      "tamanho": 37026366,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "correcao"
+      ],
+      "notas": "Novidades abrem a lista certa, com solucionados e fechados; marca de observador so para quem nao e o tecnico"
+    },
     {
       "versao": "0.9.35",
       "data": "2026-11-06",
