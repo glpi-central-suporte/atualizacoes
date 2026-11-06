@@ -1,13 +1,14 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 37,
-  "emitidoEm": "2026-11-06T11:04:05Z",
+  "sequencia": 38,
+  "emitidoEm": "2026-11-06T12:30:16Z",
   "versoes": [
     {
       "versao": "0.9.35",
       "data": "2026-11-06",
       "canais": [
+        "geral",
         "piloto"
       ],
       "sha256": "8944ee9da0b953341dd9916cde6b8399777157a26e16a3ac4849ce5d9f5b6c50",
