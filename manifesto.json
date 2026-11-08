@@ -1,9 +1,27 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 40,
-  "emitidoEm": "2026-11-08T15:26:56Z",
+  "sequencia": 41,
+  "emitidoEm": "2026-11-08T15:32:04Z",
   "versoes": [
+    {
+      "versao": "0.9.38",
+      "data": "2026-11-08",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "4a3842d46dbd62ee1eec4da3d2004295f3914f67bb71e1bac6543a20b49cd755",
+      "tamanho": 37028940,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "correcao"
+      ],
+      "notas": "Prova da atualizacao automatica de emergencia",
+      "obrigatoria": true
+    },
     {
       "versao": "0.9.37",
       "data": "2026-11-08",
