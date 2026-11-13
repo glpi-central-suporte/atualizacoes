@@ -1,9 +1,26 @@
 {
   "formato": 1,
   "produto": "central-suporte",
-  "sequencia": 44,
-  "emitidoEm": "2026-11-13T18:54:53Z",
+  "sequencia": 45,
+  "emitidoEm": "2026-11-13T19:34:47Z",
   "versoes": [
+    {
+      "versao": "0.9.41",
+      "data": "2026-11-13",
+      "canais": [
+        "piloto"
+      ],
+      "sha256": "88126f7fde52c8e92e997a7a6ed26335947f642d5efdc7e3b680c5709cae3a81",
+      "tamanho": 37042449,
+      "restauravel": true,
+      "formatoDados": 1,
+      "retirada": false,
+      "motivo": "",
+      "tipos": [
+        "correcao"
+      ],
+      "notas": "O botão + Observador passa a listar também as pessoas da MSI (técnicos e administradores), não só as da empresa do chamado."
+    },
     {
       "versao": "0.9.40",
       "data": "2026-11-13",
